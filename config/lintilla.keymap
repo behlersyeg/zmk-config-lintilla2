@@ -185,11 +185,11 @@
 
         layer_1 {
             bindings = <
-           &kp TAB                                                                           &kp RET
-&trans     &kp Q    &kp W  &kp F   &kp P      &kp G   &kp J  &kp L       &kp U      &kp Y    &kp SEMI  &trans
-&kp LSHFT  &kp A    &kp R  &kp S   &kp T      &kp D   &kp H  &kp N       &kp E      &kp I    &kp O     &kp RSHFT
-           &kp Z    &kp X  &kp C   &kp V      &kp B   &kp K  &kp M       &kp COMMA  &kp DOT  &kp FSLH
-                           &trans  &kp SPACE  &trans  &sl 1  &kp ESCAPE  &trans
+           &tog 3                                                                                      &kp RET
+&kp TAB    &kp Q   &kp W  &kp F  &kp P                  &kp G   &kp J  &kp L       &kp U      &kp Y    &kp SEMI  &trans
+&kp LSHFT  &kp A   &kp R  &kp S  &kp T                  &kp D   &kp H  &kp N       &kp E      &kp I    &kp O     &kp RSHFT
+           &kp Z   &kp X  &kp C  &kp V                  &kp B   &kp K  &kp M       &kp COMMA  &kp DOT  &kp FSLH
+                          &sl 4  &urubLayerTap 2 SPACE  &trans  &sl 1  &kp ESCAPE  &trans
             >;
         };
 
@@ -210,6 +210,26 @@
 &bt BT_CLR  &kp F11  &kp F12  &trans        &kp PRINTSCREEN  &trans        &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp C_VOL_DN     &trans
             &kp F1   &kp F2   &kp F3        &kp F4           &kp F5        &kp F6    &kp F7         &kp F8       &kp F9     &kp F10
                               &trans        &trans           &trans        &trans    &trans         &trans
+            >;
+        };
+
+        swe {
+            bindings = <
+        &trans                                                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_BRACKET
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SQT
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+        &trans                                                                                                           &trans
+&trans  &trans       &trans         &trans     &trans          &trans  &trans  &trans        &trans        &trans        &trans         &trans
+&trans  &kp LS(DQT)  &kp LS(LBRC)   &kp LBKT   &kp LS(LPAR)    &trans  &trans  &kp LS(RPAR)  &kp RBKT      &kp LS(RBRC)  &kp SQT        &trans
+        &kp PLUS     &kp LS(EQUAL)  &kp MINUS  &kp UNDERSCORE  &trans  &trans  &kp BSLH      &kp LS(PIPE)  &kp GRAVE     &kp LS(TILDE)
+                                    &trans     &trans          &trans  &trans  &trans        &trans
             >;
         };
     };
