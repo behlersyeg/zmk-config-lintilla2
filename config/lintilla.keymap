@@ -185,11 +185,11 @@
 
         layer_1 {
             bindings = <
-                  &kp TAB                                                                                             &kp RET
-&kp LEFT_BRACKET  &kp Q    &kp W  &kp F       &kp P                  &kp G    &kp J  &kp L       &kp U       &kp Y    &kp SEMI  &kp SQT
-&kp LSHFT         &kp A    &kp R  &kp S       &kp T                  &kp D    &kp H  &kp N       &kp E       &kp I    &kp O     &kp RSHFT
-                  &kp Z    &kp X  &kp C       &kp V                  &kp B    &kp K  &kp M       &kp COMMA   &kp DOT  &kp FSLH
-                                  &caps_word  &urubLayerTap 2 SPACE  &kp TAB  &sl 1  &kp ESCAPE  &kp RETURN
+                  &mo 5                                                                                                 &caps_word
+&kp LEFT_BRACKET  &kp Q  &kp W  &kp F           &kp P                  &kp G    &kp J  &kp L       &kp U       &kp Y    &kp SEMI    &kp SQT
+&kp LSHFT         &kp A  &kp R  &kp S           &kp T                  &kp D    &kp H  &kp N       &kp E       &kp I    &kp O       &kp RSHFT
+                  &kp Z  &kp X  &kp C           &kp V                  &kp B    &kp K  &kp M       &kp COMMA   &kp DOT  &kp FSLH
+                                &sk LEFT_SHIFT  &urubLayerTap 2 SPACE  &kp TAB  &sl 1  &kp ESCAPE  &kp RETURN
             >;
         };
 
@@ -205,11 +205,11 @@
 
         arrows {
             bindings = <
-            &trans                                                                                                          &trans
-&trans      &trans   &trans   &bt BT_SEL 2  &bt BT_SEL 1     &bt BT_SEL 0  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp C_VOLUME_UP  &trans
-&bt BT_CLR  &kp F11  &kp F12  &trans        &kp PRINTSCREEN  &trans        &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp C_VOL_DN     &trans
-            &kp F1   &kp F2   &kp F3        &kp F4           &kp F5        &kp F6    &kp F7         &kp F8       &kp F9     &kp F10
-                              &trans        &trans           &trans        &trans    &trans         &trans
+        &trans                                                                                              &trans
+&trans  &trans   &trans   &trans  &trans           &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp C_VOLUME_UP  &trans
+&trans  &kp F11  &kp F12  &trans  &kp PRINTSCREEN  &trans  &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp C_VOL_DN     &trans
+        &kp F1   &kp F2   &kp F3  &kp F4           &kp F5  &kp F6    &kp F7         &kp F8       &kp F9     &kp F10
+                          &trans  &trans           &trans  &trans    &trans         &trans
             >;
         };
 
@@ -230,6 +230,16 @@
 &trans  &kp LS(DQT)  &kp LS(LBRC)   &kp LBKT   &kp LS(LPAR)    &trans  &trans  &kp LS(RPAR)  &kp RBKT      &kp LS(RBRC)  &kp SQT        &trans
         &kp PLUS     &kp LS(EQUAL)  &kp MINUS  &kp UNDERSCORE  &trans  &trans  &kp BSLH      &kp LS(PIPE)  &kp GRAVE     &kp LS(TILDE)
                                     &trans     &trans          &trans  &trans  &trans        &trans
+            >;
+        };
+
+        bluetooth {
+            bindings = <
+                &trans                                                                                          &trans
+&bt BT_CLR      &trans  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR_ALL  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
+                                      &trans        &trans        &trans        &trans  &trans  &trans
             >;
         };
     };
