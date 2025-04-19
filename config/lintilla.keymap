@@ -128,8 +128,8 @@
 //         ┃   Z   ┃   X   ┃   C   ┃   V   ┃   B   ┃                          ┃   K   ┃   M   ┃   ,   ┃   .   ┃  / \  ┃
              &kp Z   &kp X   &kp C   &kp V   &kp B                              &kp K   &kp M &kp COMMA &kp DOT &kp FSLH
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃ RET   ┃ RAISE ┃ L CTL ┃  ┃ RALT  ┃ LOWER ┃ SPACE ┃
-                                        &kp RET  &mo 1  &kp LCTL   &kp RALT &mo  2 &kp SPACE
+//                                     ┃ RAISE ┃  RET  ┃ L CTL ┃  ┃ RALT  ┃ SPACE ┃ LOWER ┃
+                                         &mo 1  &kp RET &kp LCTL  &kp RALT &kp SPACE &mo  2
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
@@ -154,8 +154,8 @@
 //         ┃   0   ┃   1   ┃   2   ┃   3   ┃   .   ┃                          ┃  PGDN ┃  LEFT ┃  DOWN ┃ RIGHT ┃ RAPP  ┃
             &kp N0  &kp N1   &kp N2  &kp N3 &kp DOT                          &kp PG_UP &kp LEFT &kp DOWN &kp RIGHT &kp K_APP
 //         ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━┳━━━┻━━━┳━━━┻━━━┳━━━━━━━┓  ┏━━━━━━━┳━━━┻━━━┳━━━┻━━━┳━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
-//                                     ┃   =   ┃       ┃       ┃  ┃       ┃       ┃       ┃
-                                       &kp EQUAL &trans  &trans     &trans  &trans  &trans
+//                                     ┃       ┃   =   ┃       ┃  ┃       ┃       ┃       ┃
+                                        &trans &kp EQUAL &trans     &trans  &trans  &trans
 //                                     ┗━━━━━━━┫       ┣━━━━━━━┛  ┗━━━━━━━┫       ┣━━━━━━━┛
 //                                             ┗━━━━━━━┛                  ┗━━━━━━━┛
             >;
