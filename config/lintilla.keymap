@@ -174,7 +174,7 @@
      &none  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                        &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &trans
 // ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫
 // ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃  - _  ┃  + =  ┃ [ {   ┃  ] }  ┃  \ |  ┃  ` ~  ┃
-     &none   &none   &none   &none   &none   &none                          &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp NUBS &kp GRAVE
+     &trans   &none   &none   &none   &none   &none                          &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp NUBS &kp GRAVE
 // ┃       ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃       ┃
 // ┗━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫                          ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┛
 //         ┃       ┃       ┃       ┃       ┃       ┃                          ┃       ┃       ┃       ┃       ┃       ┃
